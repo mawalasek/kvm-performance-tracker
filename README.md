@@ -1,5 +1,5 @@
-# kvm-performance-tracker
-This project demonstrates how resource consumption in a Linux kernel-based virtual machine (KVM) environment can be monitored.
+# KVM performance tracker
+This project demonstrates how a collection of different Linux tools can be used to monitor resource consumption in a kernel-based virtual machine (KVM) environment.
 For every running VM the individual performance metrics, such as CPU cycles, allocated memory, or disk & network operations are collected. Additionally, the instantaneous power consumption of the whole platform (physical machine) is collected using an Edimax smartplug. The latter metric is particularly useful for evaluating the accuracy of the presented tool, e.g. via regression models.
 The results are stored locally under the /logs directory. For every running VM a CSV file is created.
 
